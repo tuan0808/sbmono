@@ -1,0 +1,71 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "bundler",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "lib": ["ES2022", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "resolveJsonModule": true,
+    "strictPropertyInitialization": false,
+    "baseUrl": ".",
+    "paths": {
+      "@se-mono/configs/firebase": ["libs/src/configs/index.ts"],
+      "@se-mono/libs/DataService": ["libs/src/services/data.service.ts"],
+      "@se-mono/libs/StadiumService": ["libs/src/services/stadium.service.ts"],
+      "@se-mono/libs/accountService": ["libs/src/services/account.service.ts"],
+      "@se-mono/libs/authProvider": ["libs/src/auth.provider.ts"],
+      "@se-mono/libs/authService": ["libs/src/services/auth.service.ts"],
+      "@se-mono/libs/baseService": ["libs/src/services/base.service.ts"],
+      "@se-mono/libs/components/base-layout": [
+        "libs/src/components/base-layout/index.ts"
+      ],
+      "@se-mono/libs/components/bettingBase": [
+        "libs/src/components/betting/index.ts"
+      ],
+      "@se-mono/libs/components/loader": [
+        "libs/src/components/loader/index.ts"
+      ],
+      "@se-mono/libs/components/pagination": [
+        "libs/src/components/pagination/index.ts"
+      ],
+      "@se-mono/libs/data/sports": ["libs/src/data/index.ts"],
+      "@se-mono/libs/guard": ["libs/src/guards/index.ts"],
+      "@se-mono/libs/mappers": ["libs/src/mappers/index.ts"],
+      "@se-mono/libs/models/account": ["libs/src/models/account/index.ts"],
+      "@se-mono/libs/models/betting": ["libs/src/models/betting/index.ts"],
+      "@se-mono/libs/models/data": ["libs/src/models/data/index.ts"],
+      "@se-mono/libs/models/enums": ["libs/src/models/enums/index.ts"],
+      "@se-mono/libs/models/forms": ["libs/src/models/forms/index.ts"],
+      "@se-mono/libs/models/mappers": ["libs/src/models/mappers/index.ts"],
+      "@se-mono/libs/models/nav": ["libs/src/models/nav/index.ts"],
+      "@se-mono/libs/models/pagination": [
+        "libs/src/models/pagination/index.ts"
+      ],
+      "@se-mono/libs/models/schedulers": [
+        "libs/src/models/schedulers/index.ts"
+      ],
+      "@se-mono/libs/models/sub-nav": ["libs/src/models/sub-nav/index.ts"],
+      "@se-mono/libs/scheduleService": [
+        "libs/src/services/schedule.service.ts"
+      ],
+      "@se-mono/libs/sportsDataService": [
+        "libs/src/services/sports-data.service.ts"
+      ],
+      "@se-mono/libs/src/utils": ["libs/src/utils/index.ts"],
+      "@se-mono/libs/ssr-base": ["libs/src/services/ssr-base.service.ts"],
+      "@se-mono/libs/teamsService": ["libs/src/services/teams.service.ts"],
+      "@se-mono/libs/homePageService": ["libs/src/services/home-page.service.ts"],
+      "@se-mono/libs/models/home": ["libs/src/models/home/index.ts"],
+      "@se-mono/libs/token": ["libs/src/token.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
