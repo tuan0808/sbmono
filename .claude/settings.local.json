@@ -1,1 +1,11 @@
-
+{
+  "permissions": {
+    "allow": [
+      "mcp__ide__getDiagnostics",
+      "Bash(xargs grep:*)",
+      "Bash(npx ng:*)",
+      "Bash(ls:*)",
+      "Bash(npx nx:*)"
+    ]
+  }
+}
